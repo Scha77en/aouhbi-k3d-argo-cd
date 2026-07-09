@@ -17,10 +17,3 @@ spec:
         image: wil42/playground:v1
         ports:
         - containerPort: 8888
-        resources:
-          requests:
-            memory: "64Mi"
-            cpu: "100m"
-          limits:
-            memory: "128Mi"
-            cpu: "200m"
